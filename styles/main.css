@@ -10671,9 +10671,9 @@ body {
   padding: 15rem 0;
   background: linear-gradient(
       to bottom,
-      rgba(62, 0, 112, 0.897) 0%,
-      rgb(146, 0, 0) 50%,
-      #000000 100%
+      rgba(235, 235, 235, 0.897) 0%,
+      rgb(71, 146, 0) 50%,
+      #0122b6 100%
     ),
     url("../assets/img/bg-masthead.jpg");
   background-position: center;
@@ -10722,7 +10722,7 @@ body {
     background: linear-gradient(
       to bottom,
       #000000 0%,
-      rgba(60, 27, 67, 1.0) 0%,
+      rgb(0, 59, 187) 0%,
       rgba(0, 0, 0 , 1.0) 100%
     );
   }
@@ -10731,9 +10731,9 @@ body {
   padding-top: 10rem;
   background: linear-gradient(
     to bottom,
-    #000000 0%,
-    rgba(0, 0, 0, 0.9) 25%,
-    rgba(60, 27, 67, 1.0) 100%
+    #0122b6 0%,
+    rgba(71, 146, 0, 0.9) 50%,
+    rgba(0, 59, 187, 1.0) 100%
   );
 }
 .about-section p {
@@ -10775,11 +10775,11 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
+  padding: 1rem 0;
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgba(0, 0, 0, 0.5) 75%,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 75%,
       #000000 100%
     ),
     url("../assets/img/bg-signup.jpg");
