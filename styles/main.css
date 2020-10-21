@@ -10672,8 +10672,8 @@ body {
   background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.897) 0%,
-      rgb(228, 228, 228) 50%,
-      #00a00d 100%
+      rgb(255, 255, 255) 50%,
+      #ffffff 100%
     ),
     url("../assets/img/bg-masthead.jpg");
   background-position: center;
@@ -10685,8 +10685,8 @@ body {
   color: black;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
-  line-height: 1rem;
+  font-size: 2rem;
+  
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
@@ -10701,7 +10701,7 @@ body {
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
-    line-height: 4rem;
+    
   }
 }
 @media (min-width: 992px) {
@@ -10710,13 +10710,13 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 2rem;
+   
+    letter-spacing: 0.01vh;
   }
   .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
+    max-width: 50rem;
+    font-size: 9.25rem;
     
   }
 }
@@ -10724,8 +10724,8 @@ body {
     padding-top: 10rem;
     background: linear-gradient(
       to bottom,
-      #000000 0%,
-      rgb(0, 59, 187) 0%,
+      #00a00d 0%,
+      rgba(0, 59, 187, 1.0) 90%,
       rgba(0, 59, 187, 1.0) 100%
     );
   }
@@ -10734,9 +10734,9 @@ body {
   padding-top: 10rem;
   background: linear-gradient(
     to bottom,
-    #00a00d 0%,
+    #ffffff 0%,
     rgba(71, 146, 0, 0.9) 50%,
-    rgba(0, 59, 187, 1.0) 100%
+    #00a00d 100%
   );
 }
 .about-section p {
