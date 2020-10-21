@@ -10671,9 +10671,9 @@ body {
   padding: 15rem 0;
   background: linear-gradient(
       to bottom,
-      rgba(235, 235, 235, 0.897) 0%,
-      rgb(71, 146, 0) 50%,
-      #0122b6 100%
+      rgba(255, 255, 255, 0.897) 0%,
+      rgb(228, 228, 228) 50%,
+      #00a00d 100%
     ),
     url("../assets/img/bg-masthead.jpg");
   background-position: center;
@@ -10682,12 +10682,13 @@ body {
   background-size: cover;
 }
 .masthead h1 {
+  color: black;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Press Start 2P', cursive;
   font-size: 1rem;
   line-height: 1rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -10695,6 +10696,7 @@ body {
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  
 }
 @media (min-width: 768px) {
   .masthead h1 {
@@ -10715,6 +10717,7 @@ body {
   .masthead h2 {
     max-width: 30rem;
     font-size: 1.25rem;
+    
   }
 }
 #skills {
@@ -10723,7 +10726,7 @@ body {
       to bottom,
       #000000 0%,
       rgb(0, 59, 187) 0%,
-      rgba(0, 0, 0 , 1.0) 100%
+      rgba(0, 59, 187, 1.0) 100%
     );
   }
 
@@ -10731,7 +10734,7 @@ body {
   padding-top: 10rem;
   background: linear-gradient(
     to bottom,
-    #0122b6 0%,
+    #00a00d 0%,
     rgba(71, 146, 0, 0.9) 50%,
     rgba(0, 59, 187, 1.0) 100%
   );
@@ -10778,9 +10781,8 @@ body {
   padding: 1rem 0;
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 1) 75%,
-      #000000 100%
+      rgba(0, 59, 187) 0%,
+      rgba(0, 59, 187, 1)100%
     ),
     url("../assets/img/bg-signup.jpg");
   background-position: center;
@@ -10839,7 +10841,11 @@ body {
 .contact-section .social a:active {
   color: #fff;
 }
+.contact-section-bg {
+  background: rgba(0, 59, 187, 1.0) 100%;
+}
 
 .footer {
   padding: 5rem 0;
+  background: rgba(0, 59, 187, 1.0) 100%;
 }
