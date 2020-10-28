@@ -1449,6 +1449,7 @@ pre code {
   }
 
   .col-lg-8 {
+    justify-content: center;
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
   }
@@ -10929,7 +10930,6 @@ body {
 }
 img {
   object-fit: cover;
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
