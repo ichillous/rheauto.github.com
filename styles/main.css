@@ -10957,5 +10957,8 @@ img {
 
 .car-sliders {
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  
 }
