@@ -10864,6 +10864,9 @@ body {
   text-align: center;
   overflow: hidden;
   align-items: center;
+  border: 4px solid rgba(0, 114, 175, 0.426);
+  border-radius: 20px;
+  margin: 10px;
 }
 
 .slides {
