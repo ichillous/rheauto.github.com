@@ -10867,11 +10867,13 @@ body {
   border: 4px solid rgba(0, 114, 175, 0.426);
   border-radius: 20px;
   margin: 10px;
+  min-width: 300px;
 }
 
 .slides {
+  flex-direction: inherit;
   display: flex;
-  
+  min-width: 300px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   
@@ -10961,7 +10963,8 @@ img {
 .car-sliders {
   align-items: center;
   justify-content: space-evenly;
-  display: flex;
-  flex-direction: column;
   
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
 }
